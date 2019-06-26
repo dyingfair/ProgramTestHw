@@ -1,9 +1,10 @@
 #include <iostream>
-#include "common.h"
+#include "oj.h"
 
 int main() {
 
-	MultiTest();
+//	TestMissNum();
+	TestFindUglyNumber();
 	system("pause");
 	return 0;
 }
