@@ -116,10 +116,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bigdataMulti.cpp" />
+    <ClCompile Include="findUglyNum.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MissNum.cpp" />
+    <ClCompile Include="possibleOutQueue.cpp" />
+    <ClCompile Include="stackOut.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="common.h" />
+    <ClInclude Include="oj.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

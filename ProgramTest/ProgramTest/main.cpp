@@ -5,6 +5,7 @@ int main() {
 
 //	TestMissNum();
 	TestFindUglyNumber();
+	//TestPossibleOutQueue();
 	system("pause");
 	return 0;
 }
