@@ -21,9 +21,6 @@
     <ClCompile Include="bigdataMulti.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="stackOut.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="MissNum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -31,6 +28,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="possibleOutQueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kMinNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

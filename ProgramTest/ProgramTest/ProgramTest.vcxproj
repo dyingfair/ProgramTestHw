@@ -117,10 +117,10 @@
   <ItemGroup>
     <ClCompile Include="bigdataMulti.cpp" />
     <ClCompile Include="findUglyNum.cpp" />
+    <ClCompile Include="kMinNumber.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MissNum.cpp" />
     <ClCompile Include="possibleOutQueue.cpp" />
-    <ClCompile Include="stackOut.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="oj.h" />

@@ -4,8 +4,9 @@
 int main() {
 
 //	TestMissNum();
-	TestFindUglyNumber();
+//	TestFindUglyNumber();
 	//TestPossibleOutQueue();
+	TestKminNumber();
 	system("pause");
 	return 0;
 }
