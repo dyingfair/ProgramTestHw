@@ -119,6 +119,7 @@
     <ClCompile Include="findUglyNum.cpp" />
     <ClCompile Include="kMinNumber.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="maxMultiOfThree.cpp" />
     <ClCompile Include="MissNum.cpp" />
     <ClCompile Include="possibleOutQueue.cpp" />
   </ItemGroup>

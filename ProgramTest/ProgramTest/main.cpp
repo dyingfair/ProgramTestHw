@@ -6,7 +6,8 @@ int main() {
 //	TestMissNum();
 //	TestFindUglyNumber();
 	//TestPossibleOutQueue();
-	TestKminNumber();
+//	TestKminNumber();
+	TestMaxMultiOfThree();
 	system("pause");
 	return 0;
 }

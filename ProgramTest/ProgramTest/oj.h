@@ -6,3 +6,5 @@ void TestFindUglyNumber();
 void TestPossibleOutQueue();
 
 void TestKminNumber();
+
+void TestMaxMultiOfThree();
