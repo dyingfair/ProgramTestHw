@@ -8,3 +8,4 @@ void TestPossibleOutQueue();
 void TestKminNumber();
 
 void TestMaxMultiOfThree();
+void TestGetLigthState();

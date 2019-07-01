@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="bigdataMulti.cpp" />
     <ClCompile Include="findUglyNum.cpp" />
+    <ClCompile Include="get_light_state.cpp" />
     <ClCompile Include="kMinNumber.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maxMultiOfThree.cpp" />
