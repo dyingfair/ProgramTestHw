@@ -8,7 +8,8 @@ int main() {
 	//TestPossibleOutQueue();
 //	TestKminNumber();
 //	TestMaxMultiOfThree();
-	TestGetLigthState();
+//	TestGetLigthState();
+	TestsymmetricalBinaryTree();
 	system("pause");
 	return 0;
 }

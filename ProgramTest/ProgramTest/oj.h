@@ -9,3 +9,4 @@ void TestKminNumber();
 
 void TestMaxMultiOfThree();
 void TestGetLigthState();
+void TestsymmetricalBinaryTree();
