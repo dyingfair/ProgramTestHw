@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProgramTest", "ProgramTest\ProgramTest.vcxproj", "{E4DC8601-7148-46E1-8DAE-C5F4B0313E3B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConferenceCenter", "ConferenceCenter\ConferenceCenter.vcxproj", "{A4D09303-A3FA-4811-8B48-2D9AE5C58CB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{E4DC8601-7148-46E1-8DAE-C5F4B0313E3B}.Release|x64.Build.0 = Release|x64
 		{E4DC8601-7148-46E1-8DAE-C5F4B0313E3B}.Release|x86.ActiveCfg = Release|Win32
 		{E4DC8601-7148-46E1-8DAE-C5F4B0313E3B}.Release|x86.Build.0 = Release|Win32
+		{A4D09303-A3FA-4811-8B48-2D9AE5C58CB8}.Debug|x64.ActiveCfg = Debug|x64
+		{A4D09303-A3FA-4811-8B48-2D9AE5C58CB8}.Debug|x64.Build.0 = Debug|x64
+		{A4D09303-A3FA-4811-8B48-2D9AE5C58CB8}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4D09303-A3FA-4811-8B48-2D9AE5C58CB8}.Debug|x86.Build.0 = Debug|Win32
+		{A4D09303-A3FA-4811-8B48-2D9AE5C58CB8}.Release|x64.ActiveCfg = Release|x64
+		{A4D09303-A3FA-4811-8B48-2D9AE5C58CB8}.Release|x64.Build.0 = Release|x64
+		{A4D09303-A3FA-4811-8B48-2D9AE5C58CB8}.Release|x86.ActiveCfg = Release|Win32
+		{A4D09303-A3FA-4811-8B48-2D9AE5C58CB8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

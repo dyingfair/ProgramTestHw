@@ -11,3 +11,4 @@ void TestMaxMultiOfThree();
 void TestGetLigthState();
 void TestsymmetricalBinaryTree();
 void TestGetMaxHuiwen(/*int argc, char **argv*/);
+void TestGetShortestPathLength();

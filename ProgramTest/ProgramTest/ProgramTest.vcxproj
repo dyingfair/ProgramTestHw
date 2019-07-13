@@ -116,8 +116,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="bigdataMulti.cpp" />
+    <ClCompile Include="cellularDistrict.cpp" />
     <ClCompile Include="findUglyNum.cpp" />
+    <ClCompile Include="GetMaxHuiwen.cpp" />
     <ClCompile Include="get_light_state.cpp" />
+    <ClCompile Include="JudgeMirrorTree.cpp" />
     <ClCompile Include="kMinNumber.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maxMultiOfThree.cpp" />

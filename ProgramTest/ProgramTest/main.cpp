@@ -9,7 +9,8 @@ int main() {
 //	TestKminNumber();
 //	TestMaxMultiOfThree();
 //	TestGetLigthState();
-	TestsymmetricalBinaryTree();
+//	TestsymmetricalBinaryTree();
+	TestGetShortestPathLength();
 	system("pause");
 	return 0;
 }
