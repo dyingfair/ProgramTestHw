@@ -126,6 +126,7 @@
     <ClCompile Include="maxMultiOfThree.cpp" />
     <ClCompile Include="MissNum.cpp" />
     <ClCompile Include="possibleOutQueue.cpp" />
+    <ClCompile Include="RTOSck.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="oj.h" />

@@ -23,7 +23,6 @@ static Position GetPosition(int val)
 		pos.z = 0;
 		return pos;
 	}
-	// find the ring (i) that val belongs to.
 	while (v < val) {
 		++i;
 		v += 6 * i;
