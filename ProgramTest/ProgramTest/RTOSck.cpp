@@ -28,16 +28,15 @@ int runningID = -1;
 
 int SwiCreate(unsigned int swiId, unsigned int prio, void(*proc)( void ))
 {
-	//TODO: 添加代码...
 	if ((swiId > 99) || (prio < 0) || (prio > 31) || (proc == NULL))
 		return -1;
-	SoftIRQ irq(swiId, prio, proc);
-
-	if (validCreateIdMap.count(irq.swiId_) != 0) {
+	
+	if (validCreateIdMap.count(swiId) > 0) {
 		return -1;
 	}
 	else {
-		validCreateIdMap[irq.swiId_] = irq;// 如果符合条件则添加进map
+		SoftIRQ irq(swiId, prio, proc);
+		validCreateIdMap[irq.swiId_] = irq;// 
 	}
 	return 0;
 }
@@ -51,20 +50,22 @@ int SwiCreate(unsigned int swiId, unsigned int prio, void(*proc)( void ))
 int SwiActivate(unsigned int swiId)
 {
 	//TODO: 添加代码...
-	if (validCreateIdMap.count(swiId) == 0)
+	if (validCreateIdMap.count(swiId) == 0) {
 		return -1;
-	irqQueue.push(validCreateIdMap[swiId]);	//按照优先级放入优先队列
+	}
+		
+	irqQueue.push(validCreateIdMap[swiId]);	
 	while (!irqQueue.empty()) {
 		SoftIRQ firstIrq = irqQueue.top();
 		if (runningID != firstIrq.swiId_) {
-			int tmp = runningID;
+			int tmpID = runningID;
 			runningID = firstIrq.swiId_;
 			firstIrq.proc_();
-			runningID = tmp;
-			irqQueue.pop();//出队列
+			runningID = tmpID;
+			irqQueue.pop();
 		}
 		else {
-			break;//是同一个的时候继续
+			break;
 		}
 	}
 	return 0;
